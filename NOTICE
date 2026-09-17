@@ -1,0 +1,11 @@
+NOTICE
+
+This repository bundles and serves third-party model weights that are NOT
+covered by this project's MIT license. Those weights are governed by their
+own upstream licenses:
+
+- Tencent AuK (code and weights)     -> MIT (upstream LICENSE file)
+- Qwen2.5-Omni-3B (encoder weights)  -> Qwen RESEARCH LICENSE AGREEMENT
+                                        (research / non-commercial use only)
+
+See the "Licensing" section of the README for details.

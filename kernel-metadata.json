@@ -1,0 +1,20 @@
+{
+  "id": "dsptlp/auk-speech-on-t4-x2-kaggle-weights",
+  "title": "AuK speech on T4 x2 (Kaggle weights)",
+  "code_file": "ai-local.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [
+    "dsptlp/auk-base",
+    "dsptlp/qwen25-omni-shard13",
+    "dsptlp/qwen25-omni-shard2"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

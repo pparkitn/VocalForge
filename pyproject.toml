@@ -1,0 +1,11 @@
+[tool.ruff]
+extend-include = ["*.ipynb"]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+# Lightweight set: pyflakes (F) + obvious pycodestyle (E4/E7/E9).
+select = ["E4", "E7", "E9", "F"]
+# Notebook cells import names for later cells, and cells legitimately
+# re-import (F811) or import after setup code (E402).
+ignore = ["F401", "F811", "E402"]

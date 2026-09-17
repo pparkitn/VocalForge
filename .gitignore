@@ -1,0 +1,8 @@
+# Model weight mirrors (used to build the Kaggle datasets) — too large for GitHub.
+# Re-download if needed: hf download tencent/AuK --local-dir AuK
+#                        hf download Qwen/Qwen2.5-Omni-3B --local-dir Qwen2.5-Omni-3B
+AuK/
+Qwen2.5-Omni-3B/
+
+# Local Kaggle staging mirrors
+kaggle_models/
